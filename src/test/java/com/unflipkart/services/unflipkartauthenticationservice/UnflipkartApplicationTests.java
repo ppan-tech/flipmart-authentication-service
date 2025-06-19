@@ -1,4 +1,4 @@
-package com.unflipkart.services.unflipkartauthservice;
+package com.unflipkart.services.unflipkartauthenticationservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
