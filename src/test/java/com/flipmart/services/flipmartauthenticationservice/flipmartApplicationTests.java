@@ -1,10 +1,10 @@
-package com.unflipkart.services.unflipkartauthenticationservice;
+package com.flipmart.services.flipmartauthenticationservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UnflipkartApplicationTests {
+class flipmartApplicationTests {
 
     @Test
     void contextLoads() {

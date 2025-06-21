@@ -1,6 +1,6 @@
-package com.unflipkart.services.unflipkartauthenticationservice.controllers;
+package com.flipmart.services.flipmartauthenticationservice.controllers;
 
-import com.unflipkart.services.unflipkartauthenticationservice.services.IAuthServices;
+import com.flipmart.services.flipmartauthenticationservice.services.IAuthServices;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

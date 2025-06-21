@@ -1,4 +1,4 @@
-package com.unflipkart.services.unflipkartauthenticationservice.models;
+package com.flipmart.services.flipmartauthenticationservice.models;
 
 import jakarta.persistence.*;
 import lombok.Getter;

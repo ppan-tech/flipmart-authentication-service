@@ -1,7 +1,7 @@
-package com.unflipkart.services.unflipkartauthenticationservice.services;
+package com.flipmart.services.flipmartauthenticationservice.services;
 
-import com.unflipkart.services.unflipkartauthenticationservice.models.Token;
-import com.unflipkart.services.unflipkartauthenticationservice.models.User;
+import com.flipmart.services.flipmartauthenticationservice.models.Token;
+import com.flipmart.services.flipmartauthenticationservice.models.User;
 import org.springframework.stereotype.Service;
 
 @Service
