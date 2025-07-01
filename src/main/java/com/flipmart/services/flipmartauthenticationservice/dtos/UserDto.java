@@ -1,6 +1,6 @@
-package com.unflipkart.services.unflipkartauthenticationservice.dtos;
+package com.flipmart.services.flipmartauthenticationservice.dtos;
 
-import com.unflipkart.services.unflipkartauthenticationservice.models.User;
+import com.flipmart.services.flipmartauthenticationservice.models.User;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +9,7 @@ import lombok.Setter;
 public class UserDto {
     private String name;
     private String email;
-    private String password;
+    private String message;
 
     public static UserDto from(User user)
     {
@@ -21,7 +21,8 @@ public class UserDto {
         UserDto userDto = new UserDto();
         userDto.setName(user.getName());
         userDto.setEmail(user.getEmail());
-        userDto.setPassword(user.getPassword());
+        userDto.setMessage("User created successfully");
         return userDto;
     }
 }
+

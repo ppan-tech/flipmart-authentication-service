@@ -1,4 +1,4 @@
-package com.unflipkart.services.unflipkartauthenticationservice.dtos;
+package com.flipmart.services.flipmartauthenticationservice.dtos;
 
 import lombok.Getter;
 import lombok.Setter;

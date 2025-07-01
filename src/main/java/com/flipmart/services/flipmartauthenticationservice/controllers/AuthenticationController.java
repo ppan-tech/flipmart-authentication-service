@@ -20,7 +20,7 @@ public class AuthenticationController {
         this.authService = authService;
     }
 
-    @PostMapping("/auth")
+    @PostMapping("/signup")
     public  UserDto singup(@RequestBody SignUpRequestDto signUpRequestDto) {
         // Call authService.signup() with the details from signUpRequestDto
         // and Return the UserDto object
